@@ -81,7 +81,16 @@
     .instruction_wrapper{
         flex-wrap: wrap;
         justify-content: center;
-
+        margin: 0;
+        
+    }
+    .instruction .container{
+        width: auto;
+    }
+    .instruction_left{
+        width:auto;
+        margin: 0 auto;
+        
     }
     .instruction_items{
         margin-bottom: 30px;
@@ -177,7 +186,8 @@
         left:288px;
      
     }
-    .container{
+    .container,
+    .instruction .container{
         width: 728px;
     }
     .promo{
@@ -243,6 +253,7 @@
      
     }
     .container,
+    .instruction .container,
     .product_left_top,
     .product_left_bot,
     .product_right_top,
@@ -339,7 +350,8 @@
 }
 
 @media (max-width: 376px){
-    .container{
+    .container,
+    .instruction .container{
         width: 346px;
     }
     .cursor{
@@ -430,6 +442,7 @@
      
     }
     .container,
+    .instruction .container,
     .promo_title,
      .promo_text,
       .promo_video img,

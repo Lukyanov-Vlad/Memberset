@@ -366,19 +366,25 @@ section{
     border-radius: 3px;
     border: 1px solid transparent;
 }
+.instruction .container{
+    width: 100%;
+}
 .instruction{
     padding-bottom: 127px;
 }
 .instruction_wrapper {
     display: flex;
-   
+    margin-left: 128px;
+    margin-right: 20px;
 }
 .instruction_left {
     padding-top: 41px;
+    position: relative;
+    width: 100%;
 }
 .instruction_items {
     list-style: none;
-    position: relative;
+   
 }
 .instruction_item {
     display: flex;
@@ -414,7 +420,7 @@ section{
    
 }
 .text {
-    width: 510px;
+    width: 530px;
 }
 .instruction_item_text_title {
 
@@ -425,6 +431,9 @@ section{
     display: none;
     color: #E9EBF7;
 
+}
+.instruction_item:hover .instruction_items{
+    position: absolute;
 }
 .instruction_item:hover{
     align-items: stretch;
